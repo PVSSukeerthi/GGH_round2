@@ -1,7 +1,7 @@
 # AI project for combinational depth prediction
 
 ## Overview
-This project aims to predict the **combinational logic depth** of RTL circuits using machine learning models. Instead of running a full synthesis, which is time-consuming, I useed extracted RTL features and ML models to estimate logic depth, enabling faster design iterations.
+This project aims to predict the **combinational logic depth** of RTL circuits using machine learning models. Instead of running a full synthesis, which is time-consuming, I used extracted RTL features and ML models to estimate logic depth, enabling faster design iterations.
 
 ## Methodology
 
