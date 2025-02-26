@@ -1,12 +1,12 @@
 # AI project for combinational depth prediction
 
 ## Overview
-This project aims to predict the **combinational logic depth** of RTL circuits using machine learning models. Instead of running a full synthesis, which is time-consuming, we use extracted RTL features and ML models to estimate logic depth, enabling faster design iterations.
+This project aims to predict the **combinational logic depth** of RTL circuits using machine learning models. Instead of running a full synthesis, which is time-consuming, I useed extracted RTL features and ML models to estimate logic depth, enabling faster design iterations.
 
 ## Methodology
 
 ### 1. Feature Extraction using Yosys and ABC
-We use **Yosys**, an open-source synthesis tool, to extract various structural parameters from RTL designs and **ABC**, a logic synthesis and optimization tool, to compute the logic depth.
+I used **Yosys**, an open-source synthesis tool, to extract various structural parameters from RTL designs and **ABC**, a logic synthesis and optimization tool, to compute the logic depth.
 
 #### Features Extracted:
 - **Number of wires**: Total count of wires in the circuit.
@@ -26,12 +26,12 @@ A Python script automates the process by:
 3. Parsing the output and storing the extracted features in a CSV file.
 
 ### 3. Data Augmentation using GANs
-Since the dataset is small, we use **Generative Adversarial Networks (GANs)** to create synthetic data points, improving model accuracy. The GAN generates realistic feature sets to expand the dataset.
+Since the dataset is small, I used **Generative Adversarial Networks (GANs)** to create synthetic data points, improving model accuracy. The GAN generates realistic feature sets to expand the dataset.
 
 ### 4. Machine Learning Model Training
-We tested multiple models:
+I tested multiple models:
 - **Neural Networks**: Required high computation.
-- **Random Forest**: Performed well but had limitations.
+- **Random Forest**: Performed Ill but had limitations.
 - **XGBoost**: Provided the best accuracy and was chosen as the final model.
 
 ### 5. Prediction and Evaluation
