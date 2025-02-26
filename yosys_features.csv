@@ -1,0 +1,11 @@
+Number of wires,Number of wire bits,Number of public wires,Number of public wire bits,Number of memories,Number of memory bits,Number of processes,Number of cells,File Name
+3,3,3,3,0,0,0,1,rtl_codes/rtl1.v
+3,3,3,3,0,0,0,1,rtl_codes/rtl2.v
+3,3,3,3,0,0,0,1,rtl_codes/rtl3.v
+6,19,5,14,0,0,0,2,rtl_codes/rtl4.v
+6,19,5,14,0,0,0,2,rtl_codes/rtl5.v
+4,4,4,4,0,0,0,1,rtl_codes/rtl6.v
+8,12,3,7,0,0,0,6,rtl_codes/rtl7.v
+3,8,3,8,0,0,0,1,rtl_codes/rtl8.v
+5,11,5,11,0,0,0,3,rtl_codes/rtl9.v
+3,43,2,11,0,0,0,1,rtl_codes/rtl10.v
